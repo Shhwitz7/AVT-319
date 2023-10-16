@@ -1,0 +1,75 @@
+body {
+    background-color:#024974;
+    color:white;
+    margin: 0;
+    padding: 50px;
+    line-height: 1.75;
+  font-family:'Avenir Book';
+  }
+  h1{font-family:'Cochin'; font-style:regular;  display: flex; allign:centered; font-size: 5em;color:aliceblue;}
+  h2 {font-family: 'Six Caps';font-size: 4em}
+  
+  .topnav {
+  
+      display: flex;
+      overflow: hidden;
+      width: auto;
+      border-radius: 20px;
+      justify-content: space-around;
+      border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+      background: transparent;
+      border: 2px;
+      color: white;
+      font-family:'Avenir';
+      font-style:"Black";
+  }
+  .topnav a {
+      font-family: 'Avenir Black'; 
+      padding: 10px;
+      float: left;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+  
+  }
+  
+  
+  .topnav a:hover {
+      background-color:white;
+      color:#024974;
+      border-radius: 15px;
+  }
+  button {
+      color: white;
+      font-family:'Avenir';
+      font-style:"book";   
+      background-color:#024974;
+      border-radius: 25px;
+      border-color:#167EC0;
+      font-size: 30px;
+      margin: 10px;
+      padding: 20px;
+  }
+  button:hover{
+      background-color: white;
+      color: #024974;
+      border-radius: 25px;
+  }
+  footer{
+      background-color: #024974;
+      width: auto;
+      position: center;
+      bottom: 0;
+  }
+  
+  footer .footer-text{
+      text-align: left;
+      font-size: 1rem;
+      color:white;
+      display: flex;
+      justify-content: center;
+      line-height: 4rem;
+  }
+  
