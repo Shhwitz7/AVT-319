@@ -1,0 +1,247 @@
+body {
+  background-color: #000000;
+  color: #fa487b;
+background-size: cover;
+  margin: 0;
+  padding: 50px;
+  line-height: 1.75;
+font-family:"Roboto";
+}
+h1{font-family:Roboto; font-style:regular;  display: flex; allign-content:center; font-size: 5em;color:#fa487b;width: 8ch,;float:left;    justify-content: space-around;}
+h2{font-family: 'Monoton', cursive;}
+h3{font-family: 'Dancing Script', cursive; font-size: 60px;align-content: center}
+
+.topnav {
+
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px;
+	color: #fa487b;
+	font-family:Roboto , 'Roboto Bold', 'Roboto Medium', 'Roboto Regular', 'Roboto Thin', 'Roboto Light';
+	font-style:"Roboto Regular";
+}
+.topnav a {
+    font-family:Roboto , 'Roboto Bold', 'Roboto Medium', 'Roboto Regular', 'Roboto Thin', 'Roboto Light';
+    padding: 10px;
+    float: left;
+    color: #fa487b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.topnav a:hover {
+    background-color:#fa487b;
+    color:white;
+    border-radius: 15px;
+}
+html {
+    background: url(data/adrien-olichon-1243197-unsplash.jpg) no-repeat ;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Roboto , "Roboto Bold", "Roboto Medium", "Roboto Regular", "Roboto Thin", "Roboto Light","Austin Pen",Rookworst;
+}
+
+
+topnav {
+
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px;
+	color: #fa487b;
+	font-family:"Roboto";
+	font-style:"Roboto Regular";
+}
+.topnav a {
+    font-family: 'Roboto Regular',; 
+    padding: 10px;
+    float: left;
+    color: #fa487b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.topnav a:hover {
+    background-color:#fa487b;
+    color:white;
+    border-radius: 15px;
+}
+    
+
+
+h2.Sign-in {
+    margin-top: 50px;
+}
+
+/* css for all content on and inside the form */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    background: transparent;
+
+}
+
+
+.form-box {
+    position: absolute;
+    width: 637px;
+    height: 1100px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    allign: center;
+    align-items: center;
+    left: 389px;
+    top: 341px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fa487b;
+    text-align: left;
+}
+
+.inputbox {
+    position: relative;
+    margin-top: 105px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.inputbox label {
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    width: 118px;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fa487b;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: -42px;
+    color: #fa487b;
+    font-size: 1.2em;
+    top: -10px;
+    margin-top: 20px;
+}
+
+.forget {
+    margin: -15px 0 -15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fa487b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+
+}
+footer{
+    background-color: #000000;
+    width: auto;
+    position: center;
+    bottom: 0;
+}
+
+footer .footer-text{
+    text-align: left;
+    font-size: 1rem;
+    color: #fa487b;
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}
